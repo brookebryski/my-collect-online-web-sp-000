@@ -10,4 +10,4 @@ end
 new_collection
 end
 
-my_collect(collection) {|i| i.upcase (" ")}
+my_collect(collection) {|i| i.split (" ")}
